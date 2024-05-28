@@ -1,0 +1,34 @@
+
+/* navbar style */
+.navbar{
+    margin-top: -16px;
+    width: 98%;
+    height: 60px;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%, rgb(142, 36, 36) 0%, rgb(177, 101, 102) 90% );
+    color:#d6c6e9;
+    padding:10px 1%;
+    position: sticky;
+    display: flex;
+    align-self: center;
+}
+
+/* navbar heading */
+.navbar span{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; 
+    margin-top: 16px;
+}
+.navbar span:hover{
+    color:#12343b;
+  } 
+
+/* navbar cover image */
+.coverImage{
+    height:45px;
+    width: 45px;
+    margin-right: 5px;
+    margin-top: 15px;
+}

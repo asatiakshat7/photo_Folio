@@ -1,0 +1,42 @@
+
+/* button contaienr */
+.btnContainer{
+    height: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* serach bar withing button container */
+.btnContainer input{
+    width: 50%;
+}
+
+/* buttons */
+.btn{
+    width: 90px;
+    height: 31px;
+    color: white;
+}
+
+/* back button */
+.backBtn{
+    float: left;
+    background-color: #1417ae;
+}
+
+/* add image button */
+.addBtn{
+    float: right;
+    background-color: #d40b0b;
+}
+
+
+/* imagelist containing all the image cards */
+.imageList{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+
+  
